@@ -16,7 +16,7 @@ find ${pascal_file}.pas > /dev/null 2>&1
 if [ $? -eq 0 ]; then
   echo -e "${blue_color}Build of $1.pas is running...${reset_color}"
 else
-  echo -e "${red_color}${pascal_file}.pas is not found error!${reset_color}"
+  echo -e "${red_color}${pascal_file}.pas not found error!${reset_color}"
   exit 1
 fi
 
