@@ -3,6 +3,10 @@
 PasBuild is a Bash script designed to enhance dependency management in Pascal.
 Created by [Evan Perreau](https://dev-boost.fr).
 
+## Requierment
+
+1. You need [FPC](https://www.freepascal.org/) compiler to use this script.
+
 ## Installation
 
 ### Linux
